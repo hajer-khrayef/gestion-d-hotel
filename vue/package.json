@@ -1,0 +1,46 @@
+{
+  "name": "pfe-project",
+  "version": "2.2.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "build:vite": "vite build"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^5.11.3",
+    "@fullcalendar/daygrid": "^5.11.2",
+    "@fullcalendar/interaction": "^5.11.2",
+    "@fullcalendar/list": "^5.11.2",
+    "@fullcalendar/timegrid": "^5.11.2",
+    "@fullcalendar/vue3": "^5.11.2",
+    "@mdi/font": "^7.0.96",
+    "@mdi/js": "^6.4.95",
+    "~": "file:fullcalendar/core/main.css",
+    "axios": "^0.24.0",
+    "chart.js": "^3.6.0",
+    "numeral": "^2.0.6",
+    "pinia": "^2.0.13",
+    "vue": "^3.0.0",
+    "vue-calendar-3": "^1.3.92",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.4.0",
+    "@types/tailwindcss": "^3.0.2",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-standard": "^6.0.0",
+    "autoprefixer": "^10.2.6",
+    "eslint": "^8.17.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-vue": "^7.20.0",
+    "postcss": "^8.3.0",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^3.0.14",
+    "vite": "^2.6.14"
+  }
+}

@@ -1,0 +1,51 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "serve": "vue-cli-service serve",
+        "serve:vite": "vite preview",
+        "build": "vue-cli-service build",
+        "build:vite": "vite build",
+        "lint": "vue-cli-service lint",
+        "lint:fix": "vue-cli-service lint --fix"
+    },
+    "devDependencies": {
+        "@babel/eslint-parser": "^7.18.2",
+        "@tailwindcss/forms": "^0.4.0",
+        "@types/tailwindcss": "^3.0.2",
+        "@vitejs/plugin-vue": "^2.0.0",
+        "@vue/compiler-sfc": "^3.2.33",
+        "@vue/eslint-config-standard": "^6.0.0",
+        "autoprefixer": "^10.2.6",
+        "eslint": "^7.32.0",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^5.1.1",
+        "eslint-plugin-vue": "^7.20.0",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "postcss-import": "^14.0.2",
+        "tailwindcss": "^3.0.14",
+        "vite": "^2.6.14",
+        "vue-loader": "^17.0.0"
+    },
+    "dependencies": {
+        "axios": "^0.25.0",
+        "chart.js": "^3.8.0",
+        "core-js": "^3.22.8",
+        "cross-env": "^7.0.3",
+        "numeral": "^2.0.6",
+        "pinia": "^2.0.14",
+        "vue": "^3.2.33",
+        "vue-axios": "^3.4.1",
+        "vue-router": "^4.0.15",
+        "vuex": "^4.0.2"
+    }
+}
